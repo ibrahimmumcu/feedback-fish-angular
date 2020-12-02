@@ -3,13 +3,9 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'feedback-fish',
   template: `
-    <div data-feedback-fish [attr.data-feedback-fish-userid]=userid>
-      feedback-fish-angular works!
-      <br>
-      projectid: {{projectid}}
-      <br>
-      userid: {{userid}}
-    </div>
+    <span data-feedback-fish [attr.data-feedback-fish-userid]=userid>
+      <ng-content></ng-content>
+    </span>
   `,
 })
 export class FeedbackFishComponent implements OnInit {

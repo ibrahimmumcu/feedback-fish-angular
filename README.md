@@ -8,12 +8,12 @@
 npm install feedback-fish-angular
 ```
 
-**Step 1:**
+**Step 2:**
 ```javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { FeedbackFishAngularModule } from 'feedback-fish-angular';
+import { FeedbackFishModule } from 'feedback-fish-angular';
 
 @NgModule({
   declarations: [
@@ -29,10 +29,12 @@ import { FeedbackFishAngularModule } from 'feedback-fish-angular';
 export class AppModule { }
 ```
 
-**Step2:**
+**Step 3:**
 ```html
 <feedback-fish projectid="..." userid="..."></feedback-fish>
 ```
+
+**Done** :tada:
 
 ## License
 
