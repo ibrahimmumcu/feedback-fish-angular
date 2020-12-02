@@ -1,6 +1,9 @@
 {
   "name": "feedback-fish-angular",
-  "version": "0.0.1",
+  "description": "Feedback Fish component for Angular apps.",
+  "version": "0.0.2",
+  "license": "MIT",
+  "repository": "https://github.com/ibrahimmumcu/feedback-fish-angular",
   "peerDependencies": {
     "@angular/common": "^10.0.14",
     "@angular/core": "^10.0.14"

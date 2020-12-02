@@ -31,7 +31,9 @@ export class AppModule { }
 
 **Step 3:**
 ```html
-<feedback-fish projectid="..." userid="..."></feedback-fish>
+<feedback-fish projectid="..." userid="...">
+  <button type="button">Give Feedback</button> <!-- Add any content here -->
+</feedback-fish>
 ```
 
 **Done** :tada:

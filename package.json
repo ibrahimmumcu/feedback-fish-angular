@@ -1,6 +1,6 @@
 {
   "name": "feedback-fish-angular",
-  "description": "Feedback Fish widget for Angular apps.",
+  "description": "Feedback Fish component for Angular apps.",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",

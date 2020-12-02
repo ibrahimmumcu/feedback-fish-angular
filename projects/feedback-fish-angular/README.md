@@ -1,24 +1,43 @@
-# FeedbackFishAngular
+# feedback-fish-angular
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.14.
+[Feedback Fish](https://feedback.fish) widget for Angular apps.
 
-## Code scaffolding
+## Usage
+**Step 1:**
+```
+npm install feedback-fish-angular
+```
 
-Run `ng generate component component-name --project feedback-fish-angular` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project feedback-fish-angular`.
-> Note: Don't forget to add `--project feedback-fish-angular` or else it will be added to the default project in your `angular.json` file. 
+**Step 2:**
+```javascript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+import { FeedbackFishModule } from 'feedback-fish-angular';
 
-## Build
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FeedbackFishModule, // <!---- Import FeedbackFishModule to your app.
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
-Run `ng build feedback-fish-angular` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Step 3:**
+```html
+<feedback-fish projectid="..." userid="...">
+  <button type="button">Give Feedback</button> <!-- Add any content here -->
+</feedback-fish>
+```
 
-## Publishing
+**Done** :tada:
 
-After building your library with `ng build feedback-fish-angular`, go to the dist folder `cd dist/feedback-fish-angular` and run `npm publish`.
+## License
 
-## Running unit tests
-
-Run `ng test feedback-fish-angular` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Licensed under the MIT license.
