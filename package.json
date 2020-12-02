@@ -2,7 +2,7 @@
   "name": "feedback-fish-angular-workspace",
   "description": "Feedback Fish component for Angular apps.",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "repository": "https://github.com/ibrahimmumcu/feedback-fish-angular",
   "scripts": {
