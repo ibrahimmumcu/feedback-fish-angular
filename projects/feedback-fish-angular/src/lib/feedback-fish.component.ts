@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'feedback-fish',
+  standalone: true,
   template: `
     <span data-feedback-fish [attr.data-feedback-fish-userid]=userid>
       <ng-content></ng-content>
