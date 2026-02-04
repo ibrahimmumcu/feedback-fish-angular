@@ -3,7 +3,7 @@
 [Feedback Fish](https://feedback.fish) widget for Angular apps.
 
 ## Demo
-[https://feedback-fish-angular.netlify.app/](https://feedback-fish-angular.netlify.app/)
+[https://feedback-fish-angular.vercel.app/](https://feedback-fish-angular.vercel.app/)
 
 ## Usage
 **Step 1:**
